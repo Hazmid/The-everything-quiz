@@ -1,4 +1,4 @@
-##The Everything Quiz
+## The Everything Quiz
 
 this is a web application coded with TypeScript and React and Styled with Styled-Components, it was built with the intention of having a fun and educative passtime with short quizes on a variety of subjects.
 
