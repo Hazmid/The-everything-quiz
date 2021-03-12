@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+## The Everything Quiz
+
+this is a web application coded with TypeScript and React and Styled with Styled-Components, it was built with the intention of having a fun and educative passtime with short quizes on a variety of subjects.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
