@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
 //@ts-ignore
-import BGImage from './images/redtopurple.jpg'
 
 export const GlobalStyle = createGlobalStyle`
   html{
@@ -8,13 +7,14 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    background-image: url(${BGImage});
-    background-size: cover;
     margin: 0;
-    padding: 0 20px;
+    padding: 0;
     display: flex;
     justify-content: center;
+    background-color: maroon;
+    background-image: linear-gradient(180deg, #eaea, #87ff);
   }
+
 
   *{
     box-sizing: border-box;
@@ -29,6 +29,21 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  width: 100%;
+
+  .absolutediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+
+  .red{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
 
   > p {
     color: #e6eaea
@@ -83,6 +98,14 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     color: #e6eaea
+
+  }
+
+
+  .div2  label {
+    color: #e7040f;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px #000);
   }
 
   div > select {
@@ -95,19 +118,16 @@ export const Wrapper = styled.div`
     border-radius: 10px;
   }
 
-  select > option {
-    color: #e6eaea
-    background-image: linear-gradient(180deg, #eaea, #87ff);
-
-  }
 
   @media (max-width: 800px) {
     h1 {
-      font-size: 30px;
+      font-size: 50px;
     }
 
     .start, .next {
-      margin: 5px;
+      margin: 20px;
     }
+
+    .
   }
 `;
