@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components'
 //@ts-ignore
 
 export const GlobalStyle = createGlobalStyle`
@@ -21,9 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Catamaran', sans-serif;
   }
 
-`;
-
-
+`
 
 export const Wrapper = styled.div`
   display: flex;
@@ -130,4 +128,4 @@ export const Wrapper = styled.div`
 
     .
   }
-`;
+`
