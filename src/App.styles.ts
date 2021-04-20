@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     background-color: maroon;
-    background-image: linear-gradient(180deg, #eaea, #87ff);
+    background-image: linear-gradient(90deg, #e9acb4, #b9a1f7);
   }
 
 
